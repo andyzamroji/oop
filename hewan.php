@@ -15,6 +15,13 @@ class robot_hewan extends robot
   public function get_suara(){
     return 'suara robot hewan ini adalah ' . $this->suara;
   }
+
+  //self parent
+  public function testing()
+  {
+    return self::get_suara();
+  }
+
 }
 
  ?>

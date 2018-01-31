@@ -11,8 +11,6 @@ class robot{
   public function __construct($suara, $berat){
     $this->suara = $suara;
     $this->berat = $berat;
-
-    //$this->kemampuan = $kemampuan;
   }
 
   //method
