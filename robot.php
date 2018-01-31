@@ -33,16 +33,4 @@ class robot{
   }
 }
 
-//Inheritance atau pewarisan
-class robot_hewan extends robot
-{
-  public function set_kemampuan($kemampuan){
-    $this->kemampuan = $kemampuan;
-  }
-
-  public function get_kemampuan(){
-    return $this->kemampuan;
-  }
-}
-
  ?>
