@@ -16,6 +16,7 @@ class robot{
   //method
   public function set_suara($suara){
     $this->suara = $suara;
+    return $this; //tambah ini utk method chaining
   }
 
   public function get_suara(){
