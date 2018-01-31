@@ -11,6 +11,8 @@ class robot{
   public function __construct($suara, $berat){
     $this->suara = $suara;
     $this->berat = $berat;
+
+    //$this->kemampuan = $kemampuan;
   }
 
   //method
@@ -30,4 +32,17 @@ class robot{
     return $this->berat;
   }
 }
+
+//Inheritance atau pewarisan
+class robot_hewan extends robot
+{
+  public function set_kemampuan($kemampuan){
+    $this->kemampuan = $kemampuan;
+  }
+
+  public function get_kemampuan(){
+    return $this->kemampuan;
+  }
+}
+
  ?>
